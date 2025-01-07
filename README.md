@@ -1,4 +1,4 @@
-# 🧠 QueryGen
+# 🧠 QueryGenerator
 
 QueryGen is a Python RAG (Retrieval-Augmented Generation) Library designed to streamline the interaction between users and their databases using just a few lines of code. With seamless integration for renowned databases such as PostgreSQL, MySQL, and SQLite, QueryGen also extends its capabilities to major databases like Snowflake and BigQuery by extending the `Database` Interfaces. This library utilizes large language models (LLM) like GPT-4, Llama 2, Google Gemini, and supports knowledge bases like ChromaDB and Faiss.
 
@@ -9,14 +9,14 @@ QueryGen is a Python RAG (Retrieval-Augmented Generation) Library designed to st
 To install QueryGen, you can use pip:
 
 ```commandline
-pip install QueryGen
+pip install QueryGenerator
 ```
 
 QueryGen requires Python 3.10 or higher.
 
 ## 💡 Usage
 ```python
-# !pip install QueryGen
+# !pip install QueryGenerator
 
 from QueryGen.core import QueryGenCore
 from QueryGen.databases import Sqlite
